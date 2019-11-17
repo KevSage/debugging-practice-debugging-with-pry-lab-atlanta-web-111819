@@ -14,10 +14,11 @@ def turtle_traits(turtles)
      if data == :traits
        new_trait = data
        pp new_trait
+       binding.pry
+
        pp new_trait.shift()
      end
      pp data
-binding.pry
    end
 
     end
