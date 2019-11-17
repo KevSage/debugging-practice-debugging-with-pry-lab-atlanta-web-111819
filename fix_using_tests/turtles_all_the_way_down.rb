@@ -13,10 +13,8 @@ def turtle_traits(turtles)
    turtle.each do |data|
      if data == :traits
        new_trait = data
-       pp new_trait
+       pp data
        binding.pry
-
-       pp new_trait.shift()
      end
      pp data
    end
