@@ -14,7 +14,6 @@ def turtle_traits(turtles)
      if data == :traits
        pp data
      end
-     pp data
 
    end
 
