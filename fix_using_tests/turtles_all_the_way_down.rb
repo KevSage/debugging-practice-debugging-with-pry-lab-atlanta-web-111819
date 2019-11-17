@@ -13,7 +13,7 @@ def turtle_traits(turtles)
    turtle.each do |data|
      if data == :traits
        pp :traits
-       binding.binding.pry
+       binding.pry
      end
    end
 
