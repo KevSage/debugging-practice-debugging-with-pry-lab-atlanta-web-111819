@@ -12,12 +12,9 @@ def turtle_traits(turtles)
   turtles.map do |turtle|
     turtle.each do |trait|
       trait.each do |data|
-      if data == :traits
-        data.each do |info|
-        pp info
-      end
-      end
+      pp data
     end
+    binding.pry
     end
   end
 end
