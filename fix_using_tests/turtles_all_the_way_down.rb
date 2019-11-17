@@ -10,9 +10,9 @@ end
 
 def turtle_traits(turtles)
   turtles.map do |turtle|
+
       pp turtle
 
     end
-    binding.pry
 
   end
