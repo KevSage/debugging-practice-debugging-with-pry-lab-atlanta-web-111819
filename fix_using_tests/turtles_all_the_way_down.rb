@@ -14,7 +14,8 @@ def turtle_traits(turtles)
       trait.each do |data|
       pp data
     end
-    binding.pry
     end
+    binding.pry
+
   end
 end
