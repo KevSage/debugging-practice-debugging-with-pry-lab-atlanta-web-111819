@@ -9,13 +9,16 @@ def turtles
 end
 
 def turtle_traits(turtles)
+
+  collective_traits = []
   turtles.map do |turtle|
    turtle.each do |data, attributes|
      if data == :traits
-       pp attributes
+       collective_traits << attributes
 
      end
    end
 
     end
+    collective_traits
 end
